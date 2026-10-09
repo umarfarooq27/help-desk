@@ -1,4 +1,4 @@
-FROM python:3.11-slim
+FROM docker.io/library/python:3.11-slim
 
 ARG TORCH_INDEX_URL=https://download.pytorch.org/whl/cpu
 
